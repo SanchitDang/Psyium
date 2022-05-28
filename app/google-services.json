@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "674887984517",
+    "firebase_url": "https://auth-4d64c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "auth-4d64c",
+    "storage_bucket": "auth-4d64c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674887984517:android:2d57e0d3498cc8da0ad0ec",
+        "android_client_info": {
+          "package_name": "com.sanapplications.psyium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674887984517-m3qpeq0vfo8jk6aacv1pr8s6bjgu94ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanapplications.psyium",
+            "certificate_hash": "f7896723e4cdcfbcc7480bda88c8faa3ae35deea"
+          }
+        },
+        {
+          "client_id": "674887984517-u8ds2je01sbguka2vc7eotj5508ej4kj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPmsMAxTL2BnjZvpDjsJKuMRfG1K1gynw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674887984517-u8ds2je01sbguka2vc7eotj5508ej4kj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

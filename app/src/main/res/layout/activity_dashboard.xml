@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".DashBoard">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="333dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="43dp"
+        android:text="@string/greeting_text"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/psyium_green"
+        android:textSize="110px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="329dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="47dp"
+        android:text="@string/quote_text"
+        android:textColor="@color/psyium_green"
+        android:textSize="60px"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/friendsButton"
+        android:layout_width="88dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="50dp"
+        android:background="@null"
+        android:contentDescription="@string/tab_error1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/chatButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.00999999"
+        app:srcCompat="@drawable/circasset_1" />
+
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="88dp"
+        android:layout_height="91dp"
+        android:background="@null"
+        android:contentDescription="@string/tab_error3"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/chatButton"
+        app:layout_constraintEnd_toEndOf="@+id/friendsButton"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toStartOf="@+id/friendsButton"
+        app:layout_constraintTop_toBottomOf="@+id/friendsButton"
+        app:srcCompat="@drawable/btn1asset_3" />
+
+    <Button
+        android:id="@+id/chatButton"
+        android:layout_width="114dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="50dp"
+        android:background="@null"
+        android:contentDescription="@string/tab_error2"
+        android:scaleType="centerCrop"
+        android:text="Connect"
+        android:backgroundTint="@color/psyium_green"
+        android:textColor="@color/psyium_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/settingsButton"
+        app:layout_constraintTop_toBottomOf="@+id/settingsButton" />
+
+    <Button
+        android:id="@+id/consultButton"
+        android:layout_width="111dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="50dp"
+        android:background="@null"
+        android:contentDescription="@string/tab_error2"
+        android:scaleType="centerCrop"
+        android:text="Consult"
+        android:backgroundTint="@color/psyium_green"
+        android:textColor="@color/psyium_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/settingsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsButton"
+        app:layout_constraintVertical_bias="0.506" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

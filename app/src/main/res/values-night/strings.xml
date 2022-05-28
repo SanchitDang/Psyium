@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Psyium</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="greeting_text">Good Evening,
+        Akansha</string>
+    <string name="quote_text">"Self-Care is how you take your power back"
+        - Lalah delia</string>>
+    <string name="tab_error1">Connections</string>
+    <string name="tab_error2">Connect</string>
+    <string name="tab_error3">Settings</string>
+    <string name="chat_affirm">Chat Connected.</string>
+    <string name="tab_error4">Send.</string>
+    <string name="tab_error5">Report.</string>
+    <string name="consult_page">Consult A Professional</string>
+    <string name="doc_1">Dr. Elena Rayes</string>
+    <string name="doc_2">Dr. Andre Braughs</string>
+    <string name="doc_3">Dr. Synthia Walker</string>
+    <string name="consult_btn">Book An Appointment</string>
+</resources>
